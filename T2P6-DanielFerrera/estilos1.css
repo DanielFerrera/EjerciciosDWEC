@@ -1,0 +1,108 @@
+div#historia>div#primero{
+display:flex;
+height: 800px;
+width: 100%;
+border-width: 1px;
+border-style: solid;
+border-color: green;
+}
+div#historia>div#primero>div{
+  width: 30%;
+  height:600px;
+  border-width:1px;
+  border-style: solid;
+  border-color:yellow;
+}
+div#historia>div#segundo{
+display:flex;
+height: 800px;
+width: 100%;
+border-width: 1px;
+border-style: solid;
+border-color: green;
+}
+div#historia>div#segundo>div{
+  width: 30%;
+  height:600px;
+  border-width:1px;
+  border-style: solid;
+  border-color:yellow;
+}
+div#historia>div#tercero{
+display:flex;
+height: 800px;
+width: 100%;
+border-width: 1px;
+border-style: solid;
+border-color: green;
+}
+div#historia>div#tercero>div{
+  width: 30%;
+  height:600px;
+  border-width:1px;
+  border-style: solid;
+  border-color:yellow;
+}
+div#historia>div#cuarto{
+display:flex;
+height: 800px;
+width: 100%;
+border-width: 1px;
+border-style: solid;
+border-color: green;
+}
+div#historia>div#cuarto>div{
+  width: 30%;
+  height:600px;
+  border-width:1px;
+  border-style: solid;
+  border-color:yellow;
+}
+
+div#primero{
+  align-items: flex-start;
+  vertical-align: baseline;
+  flex-direction: grow;
+}
+
+div#primero>:nth-child(3){
+  flex-grow: 2;
+}
+
+div#segundo{
+  align-items: center;
+  vertical-align: baseline;
+  flex-direction: row-reverse;
+}
+
+div#segundo>:nth-child(1){
+  flex-grow: 2;
+}
+
+div#tercero{
+  align-items: flex-end;
+}
+
+div#tercero>:nth-child(3){
+  order: 1;
+}
+
+div#tercero>:nth-child(1){
+  order: 2;
+}
+
+div#tercero>:nth-child(2){
+  order: 3;
+}
+
+div#cuatro{
+  vertical-align: baseline;
+}
+
+div#cuarto>:nth-child(1){
+  flex-grow: 1;
+}
+
+div#cuarto>:nth-child(2){
+  flex-grow: 2;
+}
